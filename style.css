@@ -1,0 +1,60 @@
+body {
+  background-color: #F2F2F2;
+  font-size: 1em;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: #614BF2;
+}
+
+input {
+  border: solid 1.5px;
+  border-radius: 4px;
+  border-color: #ADA2F2;
+  height: 2.5em;
+  width: 21em;
+  font-size: 1em;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  color: #614BF2;
+}
+
+input::placeholder {
+  color: #ADA2F2;
+  opacity: 70%;
+}
+
+input:focus {
+  outline: none;
+  border: solid 2.5px;
+  border-color: #9080F2;
+}
+
+button {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  height: 2.5em;
+  background-color: #614BF2;
+  border: none;
+  border-radius: 5px;
+  color: #F2F2F2;
+  font-weight: bold;
+}
+
+button:active {
+  background-color: #37279A;
+  transition: 0.2s;
+}
+
+#resultado::placeholder {
+  color: #614BF2;
+  opacity: 100%;
+  font-weight: bold;
+}
+
+#resultado {
+  background-color: white;
+}
